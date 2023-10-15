@@ -1,0 +1,21 @@
+{
+    "todos": [
+      {
+        "name": "Buy groceries",
+        "completed": true
+      },
+      {
+        "name": "Walk the dog",
+        "completed": true
+      },
+      {
+        "name": "Book Reading",
+        "completed": false
+      },
+      {
+        "name": "Prayers",
+        "completed": false
+      }
+    ]
+  }
+  

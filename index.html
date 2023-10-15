@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Frontend Mentor | Todo app</title>
+</head>
+<body>
+  <main>
+    <section class="top">
+        <h1>Todo</h1>
+        <img src="./images/icon-moon.svg" alt="dark mode" id="dark-mode">
+    </section>
+    <section class="todo-input">
+      <form class="add-todo" id="add-todo">
+        <div class="checkbox" id="checkbox">
+          <img src="./images/icon-check.svg" alt="">
+        </div>
+        <input type="text" id="enter-todo" placeholder="Create a new todo...">
+      </form>                
+    </section>
+    <section class="todos-list">
+      <div class="todos" id="todos">
+  
+      </div>
+      <div class="actions">
+        <div class="left-items">
+          <h3><span id="items-left">0</span> items left</h3>
+        </div>
+        <div class="filters">
+          <h3 class="active-filter">All</h3>
+          <h3>Active</h3>
+          <h3>Completed</h3>
+        </div>
+        <div class="clear">
+          <h3>Clear Completed</h3>
+        </div>
+      </div>
+    </section>
+    <section class="bottom">
+      <h4>Drag and drop to reorder list</h4> 
+    </section>
+  </main>
+  <footer>Challenge by <a href="https://www.ahamisi.com" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Adnan Hamisi</a>.
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
